@@ -1,0 +1,59 @@
+a {
+  font-size: 20px !important;
+  text-decoration-line: none;
+  color: black;
+  margin: 12px;
+}
+a:hover {
+  color: purple;
+}
+.offcanvas-header {
+  font-size: 20px;
+}
+.offcanvas-title {
+  font-size: 31px;
+}
+.btn {
+  width: 96px;
+  justify-content: center;
+  margin-left: 52px;
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid purple;
+  background-color: white;
+  color: purple;
+}
+
+.btn:hover{
+  background-color: purple;
+  border: 1px solid white
+}
+
+.dropdown-menu {
+  border: none;
+}
+.dropdown-menu.show {
+  padding-left: 50px;
+  display: grid;
+}
+.log {
+  display: inline-flex;
+  margin-left: 1000px;
+  margin-top: 0px;
+}
+.offcanvas {
+  width: 250px !important;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+.sidebar-list:hover {
+  background-color: rgba(27, 58, 94, 0.144);
+  width: 220px;
+  margin-left: 10px;
+  border-right: 5px solid purple;
+  transition: 0.5s ease-in-out;
+}

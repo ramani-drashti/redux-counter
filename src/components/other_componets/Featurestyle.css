@@ -1,0 +1,33 @@
+.size{
+  width: 18rem;
+  height: auto;
+  padding: 11px;
+}
+.size:hover{
+  box-shadow: 1px 2px 3px 2px rgb(44, 75, 104);
+}
+.imgsize{
+  width: 135px;
+  /* height: 100px; */
+  /* padding: 12px; */
+  margin-top: 18px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+.textalign{
+    /* display: -webkit-inline-box; */
+   text-align:-webkit-auto;
+}
+.po{
+  justify-items: center;
+  display:flex;
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+.buttonalign{
+  width: 80px;
+  color: purple;
+}
+.buttonalign:hover{
+  color: white;
+}
