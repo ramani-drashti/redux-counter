@@ -143,7 +143,7 @@ function SideBar() {
                   </NavDropdown> */}
                   <div className="sidebar-list">
                     <Link
-                      to={"https://www.prydan.com/contact/"}
+                      to={"https://drashti-ramani.vercel.app/"}
                       className="fa fa fw fa-tablet"
                       target="_blank"
                     >
